@@ -19,9 +19,9 @@ https://rollupjs.org/guide/en/#error-name-is-not-exported-by-module
 
 ## And when trying to install and apply the rollup common js plugin
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jlengrand/supabase-fail)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jlengrand/supabase-fail/tree/test/common-js)
 
-or run `$npm install && npm run build`
+or run `$git checkout test-common-js; npm install && npm run build`
 
 
 Here is the error that I get
