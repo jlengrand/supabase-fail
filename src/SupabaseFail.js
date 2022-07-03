@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit';
+import { createClient } from '@supabase/supabase-js'
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -57,6 +58,8 @@ export class SupabaseFail extends LitElement {
   constructor() {
     super();
     this.title = 'My app';
+    const supabase = createClient(SUPABASE_CONFIG.authDomain, SUPABASE_CONFIG.apiKey);
+    console.log(supabase);
   }
 
   render() {
